@@ -1,5 +1,2 @@
-[phases.setup]
-nixPkgs = ["php82", "php82Extensions.curl", "php82Extensions.json"]
-
 [start]
-cmd = "php -S 0.0.0.0:${PORT:-8080} api.php"
+cmd = "php -S 0.0.0.0:$PORT api.php"
